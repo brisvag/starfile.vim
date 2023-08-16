@@ -12,7 +12,7 @@ For it to work, your `vim` needs to have the following settings active (in your 
 set filetype syntax indent plugin
 ```
 
-Then, create or edit your [`filetype.vim` file](https://vim.fandom.com/wiki/Filetype.vim#File_locations) so it contains something like this:
+Then, create or edit your [`filetype.vim` file](https://vim.fandom.com/wiki/Filetype.vim#File_locations) (likely inside `$HOME/.vim/`) so it contains something like this:
 
 ```vim
 if exists("did_load_filetypes")
