@@ -51,10 +51,10 @@ hi def link starComment         Comment
 hi def link column0 String
 hi def link column1 Comment
 hi def link column2 PreProc
-hi def link column3 Special
+hi def link column3 Number
 hi def link column4 Identifier
 hi def link column5 Type
-hi def link column6 Number
+hi def link column6 Special
 hi def link column7 NONE
 
 " match columns to headers
