@@ -1,6 +1,8 @@
 # starfile.vim
 
-A syntax file for vim for the relion (and others) `.star` file format. It highlights each column and header differently, in a way that makes easier to spot specific columns in the sea of characters. This is especially useful with many headers wrapping over multiple lines or continuing off the screen where it's hard to count columns.
+A syntax file for vim for the STAR (Self-defining Text Archive and Retrieval) format (the underlying format behind the `PDBx/mmCIF/CIF` molecular structure files from [the PDB](https://www.rcsb.org/), the [`.star` files used by `RELION`](https://relion.readthedocs.io/en/release-3.1/Reference/Conventions.html#star-format), and a few others).
+
+It highlights each column and header differently, in a way that makes easier to match specific columns to their headers in the otherwise inscrutable sea of characters. This is especially useful with many headers wrapping over multiple lines or continuing off the screen where it's hard to count columns.
 
 ![vim screenshot](https://user-images.githubusercontent.com/23482191/261008259-40055c19-5e81-4e8f-928c-c642086c1d6b.png)
 
@@ -20,6 +22,6 @@ if exists("did_load_filetypes")
 endif
 
 augroup filetypedetect
-  au! BufRead,BufNewFile *.star setfiletype starfile
+  au! BufRead,BufNewFile *.star,*.cif setfiletype starfile
 augroup END
 ```
