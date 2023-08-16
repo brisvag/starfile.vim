@@ -9,7 +9,8 @@ _The colorscheme used above is [gruvbox-dark](https://github.com/gruvbox-communi
 For it to work, your `vim` needs to have the following settings active (in your `~/.vimrc` for persistence):
 
 ```vim
-set filetype syntax indent plugin
+filetype plugin indent on
+syntax on
 ```
 
 Then, create or edit your [`filetype.vim` file](https://vim.fandom.com/wiki/Filetype.vim#File_locations) (likely inside `$HOME/.vim/`) so it contains something like this:
