@@ -30,3 +30,5 @@ augroup END
 This will automatically detect the file extension and load the correct syntax file whenever you open a `.star` file.
 
 Finally, put the [`starfile.vim`](./starfile.vim) provided here inside the [`syntax` vim runtime directory]() (likely `~/.vim/syntax/`) and everything should work.
+
+If you're on `nvim`, the aforementioned paths should all be inside `.config/nvim/`.
