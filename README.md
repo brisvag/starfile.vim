@@ -4,6 +4,8 @@ A syntax file for vim for the relion (and others) `.star` file format. It highli
 
 ![vim screenshot](https://github.com/brisvag/starfile.vim/assets/23482191/a6a4cffe-60f4-40a3-b907-273f47d97c28)
 
+_[colorscheme above is [gruvbox-dark](https://github.com/gruvbox-community/gruvbox)]_
+
 For it to work, your `vim` needs to have (in your `~/.vimrc` for persistance):
 
 ```vim
