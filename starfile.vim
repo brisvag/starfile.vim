@@ -7,11 +7,11 @@
 " inspired by:
 " - https://github.com/mechatroner/rainbow_csv
 " - https://www.vim.org/scripts/script.php?script_id=4139
-"
+
 " syntax is defined for just 8 columns because most terminals (and
 " colorschemes) only use 8 base colors.
 
-" TODO: list, table, nested loops, ...
+" TODO: stuffrom the extended format like list, tables, nested loops, ...
 
 if exists("b:current_syntax")
   finish

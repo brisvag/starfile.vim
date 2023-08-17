@@ -31,4 +31,14 @@ This will automatically detect the file extension and load the correct syntax fi
 
 Finally, put the [`starfile.vim`](./starfile.vim) provided here inside the [`syntax` vim runtime directory]() (likely `~/.vim/syntax/`) and everything should work.
 
+### Neovim
+
 If you're on `nvim`, the aforementioned paths should all be inside `.config/nvim/`.
+
+### Known issues
+
+- if there's a newline between columns that belongs to the same line in a `_loop` construct (which is weird, but alas allowed in STAR), colors will be mismatched. This is because with the limited vim `syntax` we can't distinguish between a new line of columns or just the next column on a new line.
+
+---
+
+License is GPLv3; feel **free** to contribute and fork!
